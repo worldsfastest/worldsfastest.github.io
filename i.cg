@@ -1,0 +1,416 @@
+<div id="v">
+		<style>
+			@font-face {
+				font-family: 'f';
+				font-display:swap;
+				src: url('img/f.woff2') format('embedded-opentype'), /* Internet Explorer */
+				url('img/f.woff2') format('woff2'), /* Super Modern Browsers */
+				url('img/f.woff2') format('woff'), /* Pretty Modern Browsers */
+				url('img/f.woff2') format('truetype'), /* Safari, Android, iOS */
+				url('img/f.woff2') format('svg'); /* Legacy iOS */
+			}
+			@font-face {
+				font-family: 'r';
+				font-display:swap;
+				src: url('img/r.woff2') format('embedded-opentype'), /* Internet Explorer */
+				url('img/r.woff2') format('woff2'), /* Super Modern Browsers */
+				url('img/r.woff2') format('woff'), /* Pretty Modern Browsers */
+				url('img/r.woff2') format('truetype'), /* Safari, Android, iOS */
+				url('img/r.woff2') format('svg'); /* Legacy iOS */
+			}
+			
+			.s h2{color:#A73A24;}
+			.t h2, .t h3 {
+				color: white;
+				font-size: max(36px, 2.5vw);
+			}
+			.tc h3, .tc p {
+				font-family:f;
+			}
+			.t .se p {
+					font-size: 24px;
+			}
+			.t p {
+				font-size: 18px;
+				font-family: f;
+				color:#fff;
+			}
+			.z img {margin-bottom:-5px; width:100%}
+			.o {overflow:hidden;position:relative}
+			input[type="text"], input[type="tel"] {
+				display: block;
+				width: 67%;
+				margin: 8px;
+				background: url(img/i3.svg);
+				background-size: contain;
+				border: none;
+				background-repeat: no-repeat;
+				height: 32px;
+				font-size: 28px;
+				padding-right:15%;
+				margin-left:0
+			}
+			textarea {
+				display: block;
+				margin: 12px;
+				width: 67%;
+				height: 120px;
+				border: 0;
+				border-radius: 8px;
+				background: url('img/i1.svg');
+				background-size: cover;
+				font-size: 28px;
+				padding-right: 15%;
+				margin-left:0
+			}
+			input[type="submit"] {
+				width: 67%;
+				margin: 12px;
+				height: 40px;
+				background: url('img/i4.svg');
+				font-family: f;
+				color: #fff;
+				font-size: 24px;
+				padding-left: 15%;
+				border: 0;
+				border-radius: 8px;
+				margin-left:0
+			}
+			textarea:focus, input:focus{
+				outline: none;
+			}
+			
+			@media screen and (max-width:1080px) {
+				h2 {
+					font-family:r;
+					font-size:max(32px,5vw);
+				}
+				.tc h2 {
+					color: #3F8CA8;
+				}
+				.se > h2 {
+					color: #F3C010 !important;
+				}
+				.w h2, .w > p, .x p, .x h2, .y h2 {
+					color: #fff;
+				}
+				.s h2, .s p, .t h2, .t p, .t h3, .u h2, .u p, img.m.ei, .u div span, .w h2, .w > div, .w > p, form, .x h2, .x p, .y h2, .y .lp, .y a {
+					padding: 0 6vw;
+				}
+				.u p, .s p, .x p {
+					font-size: 24px;
+					font-family: f;
+					color: #fff;
+				}
+				.s p span {
+					font-weight:bolder;
+				}
+				.ssp {
+					width:67%;
+				}
+				.ssp1, .ri.m {
+					float:right;
+				}
+				.t {
+					z-index:101;
+					margin-top:-5vh;
+				}
+				.tc.o .li.m {
+					float: right;
+					margin-bottom:10vw;
+					margin-left:30%;
+				}
+				.tc.o > div {
+					width: 80%;
+				}
+				.ssp h2 {
+					font-size: max(48px, 10vw);
+					margin-bottom: 0;
+				}
+				.ssp p {margin-top:12px;}
+				.se {
+					position: relative;
+					z-index: 201;
+					margin-top: -10vh;
+				}
+				.u p.ei {
+					font-family: r;
+				}
+				.u h2 {
+					font-size: max(118px, 13.4vw);
+					margin-bottom: 0;
+					margin-top: 64px;
+					color: white;
+				}
+				.u span {
+					color: ;
+					font-family: r;
+					color: #fff;
+					font-size: 19px;
+					letter-spacing: max(1.5vw, 6px);
+				}
+				.u p.ei {
+					font-family: r;
+					text-transform: full-width;
+					font-size: 14px;
+					color: #8D8D8D;
+				}
+				.w > div img {
+					width: 100%;
+					margin-bottom: 24px;
+				}
+				input, textarea {width:100% !important}
+				.w > p {
+					margin-top: 0;
+					font-family: f;
+				}
+				.m.pa {
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+				.y a {
+					font-family: f;
+					color: #fff;
+					text-decoration: none;
+					display: block;
+					font-size: max(24px, 1.8vw);
+				}
+				h2.cp {
+					margin-top: 101px;
+					text-align: right;
+				}
+				img.cp {
+					float: right;
+					padding-right: 6vw;
+				}
+				.co2 {
+					z-index: 305;
+					position: relative;
+					margin-top: -10vh;
+					padding-left:6vw;
+				}
+				.d {display:none !important}
+			}
+			@media screen and (min-width:1080px) {
+				h2 {
+					font-family:r;
+					font-size:max(63px, 4.8vw);
+				}
+				.s > * {
+					width: 45%;
+					float: left;
+					min-height: 100vh;
+					overflow: hidden;
+				}
+				.s > div {padding-top:20vh}
+				.s {overflow:hidden}
+				.ssp {
+					float: left;
+					width: 40%;
+					margin-left: 10%;
+				}
+				.tc div {
+					width: 30%;
+					float: left;
+					margin-right:3%;
+				}
+				.tc {
+					width: 80%;
+					padding-left: 6%;
+				}
+				.ri {
+					width: 50%;
+					right: 0;
+					position: absolute;
+					top: 0;
+				}
+				.li {
+					width: 33%;
+				}
+				.t {
+					min-height: 167vh;
+				}
+				.se {
+					width: 33%;
+					margin-left: 6%;
+				}
+				.u > * {
+					width: 50%;
+					float: left;
+				}
+				.u > div {
+					padding-left: 5%;
+					padding-right:5%;
+				}
+				.u h2 {
+					font-size: max(193px, 13.4vw);
+					margin-bottom: 0;
+					margin-top:64px;
+					color: white;
+				}
+				.u p, .s p {
+					font-size:24px;
+					font-family:f;
+					color:#fff;
+				}
+				.s p span {
+					font-weight:bolder;
+				}
+				.u span {
+					font-family: r;
+					letter-spacing: 0.78vw;
+					font-size: 30px;
+					color:#fff;
+				}
+				.u p.ei {
+					color:#888;
+					letter-spacing:unset;
+					font-size:24px;
+					font-family:r;
+					text-transform:full-width;
+				}	
+				.w > *, .x > *, .y > * {
+					width: 80%;
+					margin: 0 auto;
+					color:#fff
+				}
+				.w > div img {
+					width: 33%;
+				}
+				.w h2, .x h2, .y h2 {font-size: max(36px, 2.5vw);margin-bottom:24px}
+				.w p, .x p {font-family:f}
+				.x > *, .y > * {
+					width: 50%;
+					float: left;
+				}
+				.x {
+					width: 67%;
+					margin: 0 auto;
+				}
+				.x > div {margin-top:20%}
+				.x p {font-size:24px;}
+				.x p span {font-weight:bolder}
+				.co1 {
+					margin-left: 10%;
+				}
+				.co2 {
+					margin-top: 25%;
+					margin-left: -5%;
+				}
+				.y a {
+					font-family: f;
+					color: #fff;
+					text-decoration: none;
+					display: block;
+					font-size: max(36px, 2.3vw);
+				}
+				.m {display:none !important}
+				
+			}
+		</style>
+		<div class="s">
+			<img class="d" src="img/b3.svg" />
+			<div>
+				<h2>SPEED</h2>
+				<p>Using today's latest technology for <span>media</span> and <span>animation</span>, we build websites that initially load as low as <span>5KB</span> and fully render within <span>100 milliseconds</span>.<br>Our proprietary <span>CGCG Framework</span> are the building blocks on how we are able to achieve these results.</p>
+				<img class="m" src="img/b3.svg" />
+				<div>
+					<div class="ssp ssp1">
+						<h2>123%</h2>
+						<p>As page load time goes from one second to 10 seconds, the probability of a mobile site visitor leaving increases by 123%.</p>
+					</div>
+					<div class="ssp ssp2">
+						<h2>70%</h2>
+						<p>of consumers admit that page speed impacts their willingness to buy</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="t o">
+			<div class="tc o">
+				<img class="li m" src="img/dm.svg" />
+				<h2>How Fast Should a Website Be?</h2>
+				<div>
+					<h3 style="color:#82AF52">< 0.1 seconds </h3>
+					<p>If a website visitor can get a response within that timeframe, the immersion is unbroken and there is no distraction or interruption possible.</p>
+				</div>
+				<div>
+					<h3 style="color:#F3C010">< 1 seconds </h3>
+					<p>It creates a perceptible delay, and the visitor still feels in control of browsing but his thought process can be interrupted. If they get distracted, they may forget what they were trying to do or abandon the website altogether.</p>
+				</div>
+				<div>
+					<h3 style="color:#A73A24">< 1 to 10+ seconds </h3>
+					<p>If the speed in 1 to 10 seconds, the visitor feels helpless and starts thinking about something else. Visitors of websites that load longer than 10 seconds will inevitably think something is wrong with the website and leave. </p>
+				</div>
+			</div>
+			<img class="li d" src="img/d.svg" />
+			<div class="se">
+				<img class="ri m" loading="lazy" src="img/cm.svg" />
+				<h2 style="color:#52B1BE">Security</h2>
+				<p>We offer comprehensive solutions for small and medium-sized businesses, managed It services, cybersecurity, innovative solutions based on cloud technologies.<br><br><br>Far beyond OWASP Top Ten, providing coverage over Malicious bots, Account Takeover/Credential Stuffing, API Abuse, App DDoS, Advanced Rate Limiting, Virtual Patching, and more.</p>
+			</div>
+			<img class="ri d" loading="lazy" src="img/c.svg" />
+		</div>
+		<div class="u o">
+			<img class="d" loading="lazy" src="img/e.svg" />
+			<img class="m" loading="lazy" src="img/em.svg" />
+			<div>
+				<h2>50X</h2>
+				<span>MORE SUSTAINABLE</span>
+				<p class="ei">than the average website</p>
+				<p>We promise to you that every website we build is more than carbon-neutral. We guarantee delivery and maintenance of a certified carbon-negative experience meaning that your web presence will have a net effect of removing carbon dioxide from the atmosphere rather than adding it.</p>
+				<p class="ei">Vetted and verified</p>
+				<img class="d" loading="lazy" src="img/r1.svg">
+				<img class="d" loading="lazy" src="img/r2.svg">
+				<img class="m ei" loading="lazy" src="img/r3.svg">
+			</div>
+		</div>
+		<div class="w o">
+			<h2>LET'S COMPARE</h2>
+			<div>
+				<img class="d" loading="lazy" src="img/c1.svg">
+				<img class="d" loading="lazy" src="img/c2.svg">
+				<img class="d" loading="lazy" src="img/c3.svg">
+				<img class="m" loading="lazy" src="img/c1m.svg">
+				<img class="m" loading="lazy" src="img/c2m.svg">
+				<img class="m" loading="lazy" src="img/c3m.svg">
+			</div>
+			<p>How do we calculate?</p>
+			<p style="display:none" id="vis">This is calculated by using data transfer over the wire, energy intensity of web data, and the energy source used by the data center.</p>
+		</div>
+		<div class="x o">
+			<div>
+				<h2>Accessibility</h2>
+				<p>We build sites that are <b>WCAG 2.1, ADA Title III, Section 508, EAA/EN 301549, ACA/AODA & IS 5568</b> Compliant. You'll receive an accessibility statement and certificate of performance.<br><br><br>Additionally, there has been a 300% increase in lawsuits and demand letters surrounding ADA and similar standards. </p>
+			</div>
+			<img class="d" src="img/g.svg">
+		</div>
+		<div class="y o">
+			<img class="d" src="img/f.svg">
+			<div>
+				<div class="co1">
+					<h2>PARTNERS</h2>
+					<img class="d" src="img/p.svg">
+					<img class="m lp" src="img/pm.svg">
+					<img class="m pa" src="img/gm.svg">
+					<h2 class="cp">CLIENTS</h2>
+					<img class="d" src="img/s.svg">
+					<img class="cp m" src="img/sm.svg">
+				</div>
+				<img class="m" src="img/fm.svg">
+				<div class="co2">
+					<h2>CONTACT</h2>
+					<a class="d" href="mailto:lightspeed@worldsfastest.com">lightspeed@worldsfastest.com</a>
+					<a href="tel:+12125400932">212-5400-WEB</a>
+					<form action="" method="POST">
+						<input type="text" name="name"/>
+						<input type="tel" name="phone"/>
+						<textarea name="message"></textarea>
+						<input type="submit" value="Send" />
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="z o"><img src="img/q.svg"></div>
+	</div>
