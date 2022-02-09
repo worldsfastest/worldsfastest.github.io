@@ -211,6 +211,9 @@
 				.s h2 {
 					margin-bottom: 12px;
 				}
+				.s div p {
+					width: 80%;
+				}
 				.s > * {
 					width: 45%;
 					float: left;
@@ -340,7 +343,7 @@
 			<img class="d" src="img/b3.svg" />
 			<div>
 				<h2>SPEED</h2>
-				<p>Using today's latest technology for <span>media</span> and <span>animation</span>, we build websites that initially load as low as <span>5KB</span> and fully render within <span>100 milliseconds</span>.<br>Our proprietary <span>CGCG Framework</span> are the building blocks on how we are able to achieve these results.</p>
+				<p>Using today's latest technology for <span>media</span> and <span>animation</span>, we build websites that initially load as low as <span>5KB</span> and fully render within <span>100 milliseconds</span>.<br><br>Our proprietary <span>CGCG Framework</span> are the building blocks on how we are able to achieve these results.</p>
 				<img class="m" src="img/b3.svg" />
 				<div>
 					<div class="ssp ssp1">
