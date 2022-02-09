@@ -46,9 +46,12 @@
 				border: none;
 				background-repeat: no-repeat;
 				height: 32px;
-				font-size: 28px;
-				padding-right:15%;
-				margin-left:0
+				font-size: 17px;
+				padding-right: 15%;
+				margin-left: 0;
+				padding-left: 12px;
+				font-weight: normal;
+				padding-bottom: 3px;
 			}
 			textarea {
 				display: block;
@@ -61,7 +64,10 @@
 				background-size: cover;
 				font-size: 28px;
 				padding-right: 15%;
-				margin-left:0
+				margin-left: 0;
+				padding-left: 12px;
+				padding-bottom: 3px;
+				font-size: 18px;
 			}
 			input[type="submit"] {
 				width: 67%;
