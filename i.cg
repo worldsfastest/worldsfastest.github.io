@@ -24,6 +24,7 @@
 				color: white;
 				font-size: max(36px, 2.5vw);
 			}
+			
 			.tc h3, .tc p {
 				font-family:f;
 			}
@@ -219,6 +220,9 @@
 					float: left;
 					width: 40%;
 					margin-left: 10%;
+				}
+				.se h2 {
+					font-size:max(63px, 4.8vw) !important;
 				}
 				.tc div {
 					width: 30%;
