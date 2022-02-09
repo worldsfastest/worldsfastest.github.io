@@ -201,6 +201,9 @@
 					margin-top: -10vh;
 					padding-left:6vw;
 				}
+				.u.o > img {
+					width: 100%;
+				}
 				.d {display:none !important}
 			}
 			@media screen and (min-width:1080px) {
