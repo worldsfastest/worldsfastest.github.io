@@ -85,6 +85,7 @@
 					font-family:r;
 					font-size:max(32px,5vw);
 				}
+				
 				.tc h2 {
 					color: #3F8CA8;
 				}
@@ -197,6 +198,9 @@
 					font-family:r;
 					font-size:max(63px, 4.8vw);
 				}
+				.s h2 {
+					margin-bottom: 12px;
+				}
 				.s > * {
 					width: 45%;
 					float: left;
@@ -220,7 +224,7 @@
 					padding-left: 6%;
 				}
 				.ri {
-					width: 50%;
+					width: 40%;
 					right: 0;
 					position: absolute;
 					top: 0;
@@ -231,9 +235,14 @@
 				.t {
 					min-height: 167vh;
 				}
+				.t p {
+					font-weight: light;
+					line-height: 26px;
+				}
 				.se {
 					width: 33%;
 					margin-left: 6%;
+					margin-top:-6%;
 				}
 				.u > * {
 					width: 50%;
