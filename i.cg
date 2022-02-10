@@ -198,6 +198,10 @@
 					float: right;
 					padding-right: 6vw;
 				}
+				input[type="text"], input[type="tel"] {
+					background: url('img/inm.svg');
+					background-repeat: no-repeat;
+				}
 				.co2 {
 					z-index: 305;
 					position: relative;
