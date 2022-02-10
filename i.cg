@@ -153,7 +153,7 @@
 					font-family: r;
 				}
 				.u h2 {
-					font-size: max(118px, 13.4vw);
+					font-size: max(115px, 13.4vw);
 					margin-bottom: 0;
 					margin-top: 64px;
 					color: white;
@@ -162,7 +162,7 @@
 					color: ;
 					font-family: r;
 					color: #fff;
-					font-size: 19px;
+					font-size: 18px;
 					letter-spacing: max(1.5vw, 6px);
 				}
 				.u p.ei {
