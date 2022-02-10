@@ -171,6 +171,7 @@
 					font-size: 14px;
 					color: #8D8D8D;
 				}
+				.w h2 {margin-top:36px;}
 				.w > div img {
 					width: 100%;
 					margin-bottom: 24px;
