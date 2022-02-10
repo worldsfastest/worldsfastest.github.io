@@ -445,7 +445,7 @@
 					<h2>CONTACT</h2>
 					<a class="d" href="mailto:lightspeed@worldsfastest.com">lightspeed@worldsfastest.com</a>
 					<a href="tel:+12125400932">212-5400-WEB</a>
-					<form action="" method="POST">
+					<form action="https://cgcg.biz/apis/wfw/form/home/" method="POST">
 						<input type="text" name="name"/>
 						<input type="tel" name="phone"/>
 						<textarea name="message"></textarea>
