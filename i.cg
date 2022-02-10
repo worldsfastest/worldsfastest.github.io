@@ -53,6 +53,7 @@
 				padding-left: 12px;
 				font-weight: normal;
 				padding-bottom: 3px;
+				font-family:Arial;
 			}
 			textarea {
 				display: block;
@@ -69,6 +70,7 @@
 				padding-left: 12px;
 				padding-bottom: 3px;
 				font-size: 18px;
+				font-family:Arial;
 			}
 			input[type="submit"] {
 				width: 67%;
