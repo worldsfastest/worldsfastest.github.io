@@ -99,6 +99,9 @@
 				.tc h2 {
 					color: #3F8CA8;
 				}
+				.t h3 {
+					margin-bottom: 0;
+				}
 				.se > h2 {
 					color: #F3C010 !important;
 				}
@@ -362,7 +365,7 @@
 		</div>
 		<div class="t o">
 			<div class="tc o">
-				<img class="li m" src="img/dm.svg" />
+				<img class="li m" loading="lazy" src="img/dm.svg" />
 				<h2>How Fast Should a Website Be?</h2>
 				<div>
 					<h3 style="color:#82AF52">< 0.1 seconds </h3>
@@ -377,7 +380,7 @@
 					<p>If the speed in 1 to 10 seconds, the visitor feels helpless and starts thinking about something else. Visitors of websites that load longer than 10 seconds will inevitably think something is wrong with the website and leave. </p>
 				</div>
 			</div>
-			<img class="li d" src="img/d.svg" />
+			<img class="li d" loading="lazy" src="img/d.svg" />
 			<div class="se">
 				<img class="ri m" loading="lazy" src="img/cm.svg" />
 				<h2 style="color:#52B1BE">Security</h2>
@@ -417,21 +420,21 @@
 				<h2>Accessibility</h2>
 				<p>We build sites that are <b>WCAG 2.1, ADA Title III, Section 508, EAA/EN 301549, ACA/AODA & IS 5568</b> Compliant. You'll receive an accessibility statement and certificate of performance.<br><br><br>Additionally, there has been a 300% increase in lawsuits and demand letters surrounding ADA and similar standards. </p>
 			</div>
-			<img class="d" src="img/g.svg">
+			<img class="d" loading="lazy" src="img/g.svg">
 		</div>
 		<div class="y o">
-			<img class="d" src="img/f.svg">
+			<img class="d" loading="lazy" src="img/f.svg">
 			<div>
 				<div class="co1">
 					<h2>PARTNERS</h2>
-					<img class="d" src="img/p.svg">
-					<img class="m lp" src="img/pm.svg">
-					<img class="m pa" src="img/gm.svg">
+					<img class="d" loading="lazy" src="img/p.svg">
+					<img class="m lp" loading="lazy" src="img/pm.svg">
+					<img class="m pa" loading="lazy" src="img/gm.svg">
 					<h2 class="cp">CLIENTS</h2>
-					<img class="d" src="img/s.svg">
-					<img class="cp m" src="img/sm.svg">
+					<img class="d" loading="lazy" src="img/s.svg">
+					<img class="cp m" loading="lazy" src="img/sm.svg">
 				</div>
-				<img class="m" src="img/fm.svg">
+				<img class="m" loading="lazy" src="img/fm.svg">
 				<div class="co2">
 					<h2>CONTACT</h2>
 					<a class="d" href="mailto:lightspeed@worldsfastest.com">lightspeed@worldsfastest.com</a>
@@ -445,5 +448,5 @@
 				</div>
 			</div>
 		</div>
-		<div class="z o"><img src="img/q.svg"></div>
+		<div class="z o"><img loading="lazy" src="img/q.svg"></div>
 	</div>
