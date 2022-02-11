@@ -391,7 +391,7 @@
 			<div class="se">
 				<img class="ri m" loading="lazy" src="img/cm.svg" />
 				<h2 style="color:#52B1BE">Security</h2>
-				<p>We offer comprehensive solutions for small and medium-sized businesses, managed It services, cybersecurity, innovative solutions based on cloud technologies.<br><br><br>Far beyond OWASP Top Ten, providing coverage over Malicious bots, Account Takeover/Credential Stuffing, API Abuse, App DDoS, Advanced Rate Limiting, Virtual Patching, and more.</p>
+				<p>We provide a next-gen defense against bad actors that prey on exploiting site visitors, abusing server resources, defacement, theft of PII, Black-hat SEO another unwanted activity.<br><br><br>Far beyond OWASP Top Ten, providing coverage over Malicious bots, Account Takeover/Credential Stuffing, API Abuse, App DDoS, Advanced Rate Limiting, Virtual Patching, and more.</p>
 			</div>
 			<img class="ri d" loading="lazy" src="img/c.svg" />
 		</div>
