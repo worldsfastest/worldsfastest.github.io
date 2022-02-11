@@ -262,7 +262,7 @@
 					width: 33%;
 				}
 				.t {
-					min-height: 167vh;
+					min-height: 155vh;
 				}
 				.t p {
 					font-weight: light;
