@@ -253,16 +253,17 @@
 					padding-left: 6%;
 				}
 				.ri {
-					width: 40%;
+					width: 45%;
 					right: 0;
 					position: absolute;
 					top: 0;
+					height:155vh;
 				}
 				.li {
 					width: 33%;
 				}
 				.t {
-					min-height: 160vh;
+					min-height: 155vh;
 				}
 				.t p {
 					font-weight: light;
