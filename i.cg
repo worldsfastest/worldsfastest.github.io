@@ -373,6 +373,7 @@
 			#slc:checked + #vis {
 				display: block !important;
 			}
+			.z{min-height:5vw;}
 		</style>
 		<div class="s">
 			<a href="img/WFW_CaseStudy.pdf" target="_blank"><img class="d" src="img/b3.svg" /></a>
