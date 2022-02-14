@@ -314,11 +314,12 @@
 					margin: 0 auto;
 					color:#fff
 				}
+				.w label{display:block}
 				.w > div img {
 					width: 33%;
 				}
 				.w h2, .x h2, .y h2 {font-size: max(36px, 2.5vw);margin-bottom:24px}
-				.w p, .x p {font-family:f}
+				.w p, .x p, .w label {font-family:f}
 				.x > *, .y > * {
 					width: 50%;
 					float: left;
@@ -351,6 +352,20 @@
 				}
 				.m {display:none !important}
 				
+			}
+			#vis {
+				margin-left: 10%;
+				width: max(25%, 250px);
+				padding: 24px;
+				background-color: #A8A8A8;
+				border-radius: 8px;
+			}
+			#vis.hidden {
+				display:none !important;
+			}
+			#ctv{cursor:pointer}
+			#slc:checked + #vis {
+				display: block !important;
 			}
 		</style>
 		<div class="s">
@@ -385,7 +400,7 @@
 				</div>
 				<div>
 					<h3 style="color:#A73A24">1 to 10+ seconds </h3>
-					<p>If the speed is in 1 to 10 seconds, the visitors of websites that load this long will inevitably think something is wrong with the website and leave. </p>
+					<p>If the load time is 1 to 10 seconds, the visitors of websites that load this long will inevitably think something is wrong with the website and leave. </p>
 				</div>
 			</div>
 			<img class="li d" loading="lazy" src="img/d.svg" />
@@ -420,8 +435,9 @@
 				<img class="m" loading="lazy" src="img/c2m.svg" />
 				<img class="m" loading="lazy" src="img/c3m.svg" />
 			</div>
-			<p>How do we calculate?</p>
-			<p style="display:none" id="vis">This is calculated by using data transfer over the wire, energy intensity of web data, and the energy source used by the data center.</p>
+			<label id="ctv" for="slc">How do we calculate?</label>
+			<input id="slc" style="display: none;" type="checkbox">
+			<p class="hidden" id="vis">This is calculated by using data transfer over the wire, energy intensity of web data, and the energy source used by the data center.</p>
 		</div>
 		<div class="x o">
 			<div>
