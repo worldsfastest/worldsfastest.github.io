@@ -357,7 +357,7 @@
 			<a href="img/WFW_CaseStudy.pdf" target="_blank"><img class="d" src="img/b3.svg" /></a>
 			<div>
 				<h2>SPEED</h2>
-				<p>Using today's latest technology for <span>media</span> and <span>animation</span>, we build websites that initially load as low as <span>5KB</span> and fully render within <span>100 milliseconds</span>.<br><br>Our proprietary <span>CGCG Framework</span> is the building blocks on how we are able to achieve these results.</p>
+				<p>Using today's latest technology for <span>media</span> and <span>animation</span>, we build websites that initially load as low as <span>5KB</span> and fully render within <span>100 milliseconds</span>.<br/><br/>Our proprietary <span>CGCG Framework</span> is the building blocks on how we are able to achieve these results.</p>
 				<a href="img/WFW_CaseStudy.pdf" target="_blank"><img class="m" src="img/b3.svg" /></a>
 				<div>
 					<div class="ssp ssp1">
@@ -426,7 +426,7 @@
 		<div class="x o">
 			<div>
 				<h2>Accessibility</h2>
-				<p>We build sites that are <b>WCAG 2.1, ADA Title III, Section 508, EAA/EN 301549, ACA/AODA & IS 5568</b> Compliant. You'll receive an accessibility statement and certificate of performance.<br><br><br>Additionally, there has been a 300% increase in lawsuits and demand letters surrounding ADA and similar standards. </p>
+				<p>We build sites that are <b>WCAG 2.1, ADA Title III, Section 508, EAA/EN 301549, ACA/AODA & IS 5568</b> Compliant. You'll receive an accessibility statement and certificate of performance.<br/><br/><br/>Additionally, there has been a 300% increase in lawsuits and demand letters surrounding ADA and similar standards. </p>
 			</div>
 			<img class="d" loading="lazy" src="img/g.svg">
 		</div>
