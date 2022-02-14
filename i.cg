@@ -205,6 +205,12 @@
 					background: url('img/inm.svg');
 					background-repeat: no-repeat;
 				}
+				textarea {
+					height: 320px;
+					background: url('img/tambg.svg');
+					background-repeat: no-repeat;
+					padding-right: 20%;
+				}
 				.co2 {
 					z-index: 305;
 					position: relative;
