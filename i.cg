@@ -107,10 +107,10 @@
 				.se > h2 {
 					color: #F3C010 !important;
 				}
-				.w h2, .w > p, .x p, .x h2, .y h2 {
+				.w h2, .w > p, .x p, .x h2, .y h2, .w label {
 					color: #fff;
 				}
-				.s h2, .s p, .t h2, .t p, .t h3, .u h2, .u p, img.m.ei, .u div span, .w h2, .w > div, .w > p, form, .x h2, .x p, .y h2, .y .lp, .y a {
+				.s h2, .s p, .t h2, .t p, .t h3, .u h2, .u p, img.m.ei, .u div span, .w h2, .w > div, .w > p, form, .x h2, .x p, .y h2, .y .lp, .y a, .w label {
 					padding: 0 6vw;
 				}
 				.u p, .s p, .x p {
