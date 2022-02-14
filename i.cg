@@ -406,7 +406,7 @@
 				</div>
 				<div>
 					<h3 style="color:#A73A24">1 to 10+ seconds </h3>
-					<p>If the load time is 1 to 10 seconds, the visitors of websites that load this long will inevitably think something is wrong with the website and leave. </p>
+					<p>If the load time is 1 to 10 seconds, the visitors will inevitably think something is wrong with the website and leave.</p>
 				</div>
 			</div>
 			<img class="li d" loading="lazy" src="img/d.svg" />
