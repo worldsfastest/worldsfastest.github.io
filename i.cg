@@ -46,7 +46,7 @@
 				background-size: contain;
 				border: none;
 				background-repeat: no-repeat;
-				height: 32px;
+				height: 38px;
 				font-size: 17px;
 				padding-right: 15%;
 				margin-left: 0;
