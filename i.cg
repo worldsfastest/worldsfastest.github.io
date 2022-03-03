@@ -38,7 +38,7 @@
 			}
 			.z img {margin-bottom:-5px; width:100%}
 			.o {overflow:hidden;position:relative}
-			input[type="text"], input[type="tel"] {
+			input[type="text"], input[type="tel"], select {
 				display: block;
 				width: 67%;
 				margin: 8px;
@@ -201,7 +201,7 @@
 					float: right;
 					padding-right: 6vw;
 				}
-				input[type="text"], input[type="tel"] {
+				input[type="text"], input[type="tel"], select {
 					background: url('img/inm.svg');
 					background-repeat: no-repeat;
 				}
@@ -369,11 +369,31 @@
 			#vis.hidden {
 				display:none !important;
 			}
-			#ctv{cursor:pointer}
+			#ctv{cursor:pointer;font-family: f, Helvetica;}
 			#slc:checked + #vis {
 				display: block !important;
 			}
 			.z{min-height:5vw;}
+			form select {
+				color:gray;
+				font-family: f;
+			}
+			input::placeholder, textarea::placeholder, select {
+				font-family: f;
+				font-weight: lighter;
+				color: ;
+				color: ;
+				color: #393535;
+			}
+			option {
+				color:black;
+			}
+			select {
+				  -webkit-appearance: none;
+				  -moz-appearance: none;
+				  text-indent: 1px;
+				  text-overflow: '';
+			}
 		</style>
 		<div class="s">
 			<a href="img/WFW_CS.pdf" target="_blank"><img class="d" src="img/b3.svg" /></a>
@@ -403,7 +423,7 @@
 				</div>
 				<div>
 					<h3 style="color:#F3C010">&lt; 1 seconds </h3>
-					<p>It creates a perceptible delay, and the visitor still feels in control of browsing but his thought process can be interrupted. If they get distracted, they may forget what they were trying to do or abandon the website altogether.</p>
+					<p>It creates a perceptible delay, and the visitor still feels in control of browsing but their thought process can be interrupted. If they get distracted, they may forget what they were trying to do or abandon the website altogether.</p>
 				</div>
 				<div>
 					<h3 style="color:#A73A24">1 to 10+ seconds </h3>
@@ -425,7 +445,7 @@
 				<h2>50X</h2>
 				<span>MORE SUSTAINABLE</span>
 				<p class="ei">than the average website</p>
-				<p>Our promise to you is that every website we build is beyond than carbon-neutral. We guarantee delivery and maintenance of a certified carbon-negative experience meaning that your web presence will have a net effect of removing carbon dioxide from the atmosphere rather than adding it.</p>
+				<p>Our promise to you is that every website we build is beyond carbon-neutral. We guarantee delivery and maintenance of a certified carbon-negative experience, meaning that your web presence will have a net effect of removing carbon dioxide from the atmosphere rather than adding it.</p>
 				<p class="ei">Vetted and verified</p>
 				<img class="d" loading="lazy" src="img/r1.svg" />
 				<img class="d" loading="lazy" src="img/r2.svg" />
@@ -471,9 +491,16 @@
 					<a class="d" href="mailto:lightspeed@worldsfastest.com">lightspeed@worldsfastest.com</a>
 					<a href="tel:+12125400932">212-5400-WEB</a>
 					<form action="https://cgcg.biz/apis/wfw/form/home/" method="POST">
-						<input type="text" name="name"/>
-						<input type="tel" name="phone"/>
-						<textarea name="message"></textarea>
+						<input placeholder="Name" type="text" name="name"/>
+						<input placeholder="Company" type="text" name="company"/>
+						<input placeholder="Phone Number" type="tel" name="phone"/>
+						<select name="budget" placeholder="Budget">
+							<option value="" disabled="disabled" selected="selected" >ᐯ Budget</option>
+							<option value="50To100">$50,000-$100,000</option>
+							<option value="100To500">$100,000-$500,0000</option>
+							<option value="500Plus">$500,000+</option>
+						</select>
+						<textarea placeholder="Please tell us more" name="message"></textarea>
 						<input type="submit" value="Send" />
 					</form>
 				</div>
