@@ -495,7 +495,7 @@
 						<select name="budget" placeholder="Budget">
 							<option value="" disabled="disabled" selected="selected" >ᐯ Budget</option>
 							<option value="50To100">$50,000-$100,000</option>
-							<option value="100To500">$100,000-$500,0000</option>
+							<option value="100To500">$100,000-$500,000</option>
 							<option value="500Plus">$500,000+</option>
 						</select>
 						<textarea placeholder="Please tell us more" name="message"></textarea>
